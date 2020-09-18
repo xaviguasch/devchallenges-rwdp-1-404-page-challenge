@@ -96,3 +96,9 @@ p {
     margin-top: 3em;
   }
 }
+
+@media (min-width: 1500px) {
+  .main {
+    margin-top: 7em;
+  }
+}
