@@ -1,5 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* General styles */
+
 body {
   margin: 0;
   padding: 0;
-  background: lightblue;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+header {
+  padding: 1.1em 1.5em;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.scarecrow {
+  margin-top: 2em;
+}
+
+.scarecrow-img {
+  display: block;
+  width: 75%;
+  margin: 3.7em auto;
+  margin-top: 2em;
+}
+
+.hero {
+  margin-left: 1.5em;
+  margin-right: 0.06em;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #333333;
+  margin-top: 3.5em;
+  margin-bottom: 3.5em;
+  padding: 1.5em 2.69em;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.footer-text {
+  font-size: 0.8125rem;
 }
