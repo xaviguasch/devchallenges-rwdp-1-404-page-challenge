@@ -22,7 +22,7 @@ p {
   font-size: 1.1rem;
 }
 
-header {
+.header {
   padding: 1.1em 1.5em;
   font-family: 'Inconsolata', monospace;
   font-weight: bold;
@@ -57,10 +57,42 @@ header {
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   padding-bottom: 1em;
 }
 
 .footer-text {
   font-size: 0.8125rem;
+}
+
+@media (min-width: 650px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 1.4;
+  }
+
+  .header {
+    margin-top: 0;
+    padding: 0.5em 3em;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    max-width: 1400px;
+  }
+
+  .info-text {
+    font-size: 1.5rem;
+    width: 63%;
+  }
+
+  .footer {
+    margin-top: 3em;
+  }
 }
